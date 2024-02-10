@@ -1,0 +1,83 @@
+.back {
+    position: relative;
+    background-image: linear-gradient(to bottom,rgb(245, 180, 59),rgb(250, 250, 63));
+    height: 100vh;
+    width: 100vw;
+}
+.mid {
+    position:absolute;
+    top: 10%;
+    left: 30%;
+    height: 550px;
+    width: 550px;
+    background-color:white;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: navy;
+    padding-top: 10px;
+}
+.paragraph{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(12, 12, 127);
+    padding-bottom: 20px;
+}
+.horizon{
+    border: none;
+    border-top: 0px solid #4a4e69;
+    height: 3px;
+    width: 430px;
+    margin: 20px auto;
+}
+.task{
+    color: navy;
+    font-size: xx-large;
+    padding: 15px;
+    text-align: left;
+    padding-right: 10px;
+    list-style-type: none;
+}
+.checkbox{
+    border-radius: 100%;
+    border-color: navy;
+    align-self: right;
+    padding: 15px;
+    display: none;
+}
+.checkbox-label {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.checkbox-label:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+.checkbox:checked + .checkbox-label:before {
+    background-color: #2196F3;
+}
+.label1{
+    margin-left:255px;
+}
+.label2{
+    margin-left:164px;
+}
+.label3{
+    margin-left:127px;
+}
+.label4{
+    margin-left:187px
+}
